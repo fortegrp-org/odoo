@@ -101,9 +101,9 @@ class WebClient(http.Controller):
         ])
         return response
 
-    @http.route('/web/webclient/version_info', type='json', auth="none")
-    def version_info(self):
-        return odoo.service.common.exp_version()
+    # @http.route('/web/webclient/version_info', type='json', auth="none")
+    # def version_info(self):
+    #     return odoo.service.common.exp_version()
 
     @http.route('/web/tests', type='http', auth="user")
     def test_suite(self, mod=None, **kwargs):
