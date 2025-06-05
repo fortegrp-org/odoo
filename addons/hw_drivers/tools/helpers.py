@@ -374,14 +374,19 @@ def load_certificate():
     if response.status != 200:
         return "ERR_IOT_HTTPS_LOAD_REQUEST_STATUS %s\n\n%s" % (response.status, response.reason)
 
-    response = json.loads(response.data.decode('utf8'))
-    error = response.get('error')
-    if error or not response.get('data') or not json.loads(response.data.decode('utf8')).get('result'):
-        _logger.warning("An error received from odoo.com while trying to get the certificate: %s", error or 'Empty response')
+    response_body = json.loads(response.data.decode())
+    server_error = response_body.get('error')
+    if server_error:
+        _logger.error("A server error received from odoo.com while trying to get the certificate: %s", server_error)
+        return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
+
+    result = response_body.get('result', {})
+    certificate_error = result.get('error')
+    if certificate_error:
+        _logger.error("An error received from odoo.com while trying to get the certificate: %s", certificate_error)
         return "ERR_IOT_HTTPS_LOAD_REQUEST_NO_RESULT"
 
     update_conf({'subject': result['subject_cn']})
-    result = json.loads(response.data.decode('utf8'))['result']
     if platform.system() == 'Linux':
         with writable():
             Path('/etc/ssl/certs/nginx-cert.crt').write_text(result['x509_pem'])
@@ -601,6 +606,9 @@ def disconnect_from_server():
         'remote_server': '',
         'token': '',
         'db_uuid': '',
+        'screen_orientation': '',
+        'browser_url': '',
+        'iot_handlers_etag': '',
     })
 
 

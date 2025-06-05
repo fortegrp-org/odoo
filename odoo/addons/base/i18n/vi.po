@@ -604,6 +604,9 @@ msgid ""
 "            Egypt Tax Authority Invoice Integration\n"
 "        "
 msgstr ""
+"\n"
+"            Tích hợp Hóa đơn của Cơ quan Thuế Ai Cập\n"
+"        "
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_ke_edi_oscu
@@ -4518,6 +4521,8 @@ msgid ""
 "\n"
 "E-invoice implementation for Saudi Arabia; Integration with ZATCA\n"
 msgstr ""
+"\n"
+"Triển khai Hóa đơn điện tử cho Ả rập Xê út; Tích hợp với ZATCA\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_sa_edi_pos
@@ -5961,7 +5966,7 @@ msgstr ""
 "\n"
 "Tính năng Chính\n"
 "------------\n"
-"* Nhập đơn đặt hàng từ nhiều tài khoản và marketplace.\n"
+"* Nhập đơn đặt hàng từ nhiều tài khoản và sàn thương mại điện tử.\n"
 "* Các đơn đặt hàng được so khớp với các sản phẩm Odoo dựa trên tham chiếu nội bộ của chúng (SKU trong Amazon).\n"
 "* Việc giao hàng được xác nhận trong Odoo được đồng bộ hóa vào Amazon.\n"
 "* Hỗ trợ cho cả tuỳ chọn Xử lý bởi Amazon (FBA) và Xử lý bởi Người bán (FBM):\n"
@@ -7226,7 +7231,7 @@ msgid ""
 "Module linking the attendance module to the timesheet app.\n"
 msgstr ""
 "\n"
-"Phân hệ liên kết phân hệ chuyên cần với ứng dụng bảng chấm công.\n"
+"Phân hệ liên kết phân hệ chấm công với ứng dụng bảng chấm công.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_followup
@@ -8764,8 +8769,8 @@ msgstr ""
 "Studio - Tùy chỉnh Odoo\n"
 "=======================\n"
 "\n"
-"Addon này cho phép người dùng tùy chỉnh hầu hết các yếu tố giao diện người dùng, theo \n"
-"cách đơn giản mà đầy tính đồ họa. Addon này có hai tính năng chính:\n"
+"Tiện ích bổ sung này cho phép người dùng tùy chỉnh hầu hết các yếu tố giao diện người dùng, theo \n"
+"cách đơn giản mà đầy tính đồ họa. Tiện ích bổ sung này có hai tính năng chính:\n"
 "\n"
 "* tạo một ứng dụng mới (thêm phân hệ, mục menu cấp cao nhất và tác vụ mặc định)\n"
 "* tùy chỉnh một ứng dụng hiện có (chỉnh sửa menu, tác vụ, chế độ xem, bản dịch,...)\n"
@@ -9321,7 +9326,7 @@ msgid ""
 "This is a link module between Point of Sale and Mrp.\n"
 msgstr ""
 "\n"
-"Đây là module liên kết giữa Điểm bán hàng và MRP.\n"
+"Đây là module liên kết giữa Máy tính tiền và MRP.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_fi
@@ -10389,10 +10394,10 @@ msgid ""
 "actions(Check in/Check out) performed by them.\n"
 msgstr ""
 "\n"
-"Phân hệ này nhằm mục đích quản lý chuyên cần của nhân viên.\n"
+"Phân hệ này nhằm mục đích quản lý chấm công của nhân viên.\n"
 "=================================================================\n"
 "\n"
-"Theo dõi chuyên cần của nhân viên dựa trên \n"
+"Theo dõi chấm công của nhân viên dựa trên \n"
 "các tác vụ (Vào/Ra) do họ thực hiện.\n"
 
 #. module: base
@@ -11072,6 +11077,10 @@ msgid ""
 "This module fully implements the ELM 5.0 wage standard and is Swissdec certified under certificate 1203.25. Any unauthorized modifications are strictly prohibited, as they may lead to errors in data transmission and calculations.\n"
 "The Module is not retro-compatible with Previous Swiss Payroll versions, installation will require a re-generation of your yearly Payroll-accounting.\n"
 msgstr ""
+"\n"
+"Phân hệ này triển khai đầy đủ tiêu chuẩn lương ELM 5.0 và được chứng nhận Swissdec theo giấy chứng nhận số 1203.25. Mọi sửa đổi không được phép đều bị nghiêm cấm vì có thể dẫn đến lỗi trong việc truyền dữ liệu và tính toán.\n"
+"Phân hệ không tương thích ngược với các phiên bản Bảng lương của Thuỵ Sĩ trước đó, việc cài đặt sẽ yêu cầu phải tái tạo lại hệ thống kế toán-Bảng lương hàng năm của bạn.\n"
+"\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_sms
@@ -11666,7 +11675,7 @@ msgid ""
 "This module makes sure that the point of sales are compliant to the law in sweden.\n"
 msgstr ""
 "\n"
-"Phân hệ này đảm bảo rằng điểm bán hàng tuân thủ pháp luật tại Thụy Điển.\n"
+"Phân hệ này đảm bảo rằng máy tính tiền tuân thủ pháp luật tại Thụy Điển.\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_stock_picking_batch
@@ -13935,21 +13944,21 @@ msgstr "Một <graph> chỉ có thể chứa<field> các nút, tìm thấy một
 #: model:ir.module.module,summary:base.module_payment_adyen
 msgid "A Dutch payment provider covering Europe and the US."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán của Hà Lan bao gồm châu Âu và Hoa Kỳ."
+"Một nhà cung cấp dịch vụ thanh toán của Hà Lan hỗ trợ châu Âu và Hoa Kỳ."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_mollie
 msgid "A Dutch payment provider covering several European countries."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán của Hà Lan bao gồm nhiều quốc gia châu "
+"Một nhà cung cấp dịch vụ thanh toán của Hà Lan hỗ trợ nhiều quốc gia châu "
 "Âu."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_buckaroo
 msgid "A Dutch payment provider covering several countries in Europe."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán của Hà Lan bao gồm nhiều quốc gia ở châu"
-" Âu."
+"Một nhà cung cấp dịch vụ thanh toán của Hà Lan hỗ trợ nhiều quốc gia ở châu "
+"Âu."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_sips
@@ -13962,7 +13971,7 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_payment_flutterwave
 msgid "A Nigerian payment provider covering several African countries."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán của Nigeria bao gồm nhiều quốc gia châu "
+"Một nhà cung cấp dịch vụ thanh toán của Nigeria hỗ trợ nhiều quốc gia châu "
 "Phi."
 
 #. module: base
@@ -14138,14 +14147,13 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_razorpay
 msgid "A payment provider covering India."
-msgstr "Một nhà cung cấp dịch vụ thanh toán bao gồm Ấn Độ."
+msgstr "Một nhà cung cấp dịch vụ thanh toán hỗ trợ Ấn Độ."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_mercado_pago
 msgid "A payment provider covering several countries in Latin America."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán bao gồm một số quốc gia ở châu Mỹ "
-"Latinh."
+"Một nhà cung cấp dịch vụ thanh toán hỗ trợ một số quốc gia ở Mỹ Latinh."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_xendit
@@ -14849,7 +14857,7 @@ msgstr "Thêm một hình thức gợi ý nhiệm vụ vào trang web của bạ
 #. module: base
 #: model:ir.module.module,summary:base.module_website_mail_group
 msgid "Add a website snippet for the mail groups."
-msgstr "Thêm đoạn mã trang web cho các nhóm thư."
+msgstr "Thêm đoạn mã trang web cho các nhóm liên hệ."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_reports_cash_basis
@@ -14999,22 +15007,22 @@ msgid ""
 "Addon for the POS App that allows customers to view the menu on their "
 "smartphone."
 msgstr ""
-"Add-on dành cho Ứng dụng POS cho phép khách hàng xem menu trên điện thoại "
-"thông minh của họ."
+"Tiện ích bổ sung dành cho Ứng dụng POS cho phép khách hàng xem menu trên "
+"điện thoại thông minh của họ."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_self_order_adyen
 msgid "Addon for the Self Order App that allows customers to pay by Adyen."
 msgstr ""
-"Add-on cho Ứng dụng Đặt hàng tự động cho phép khách hàng thanh toán bằng "
-"Adyen."
+"Tiện ích bổ sung cho Ứng dụng Đặt hàng tự động cho phép khách hàng thanh "
+"toán bằng Adyen."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_self_order_stripe
 msgid "Addon for the Self Order App that allows customers to pay by Stripe."
 msgstr ""
-"Add-on cho Ứng dụng Đặt hàng tự động cho phép khách hàng thanh toán bằng "
-"Stripe."
+"Tiện ích bổ sung cho Ứng dụng Đặt hàng tự động cho phép khách hàng thanh "
+"toán bằng Stripe."
 
 #. module: base
 #. odoo-python
@@ -15621,7 +15629,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_aps
 msgid "An Amazon payment provider covering the MENA region."
-msgstr "Một nhà cung cấp dịch vụ thanh toán của Amazon bao gồm khu vực MENA."
+msgstr "Một nhà cung cấp dịch vụ thanh toán của Amazon hỗ trợ khu vực MENA."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_paypal
@@ -15634,7 +15642,7 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_payment_stripe
 msgid "An Irish-American payment provider covering the US and many others."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán Hoa Kỳ-Ireland bao gồm Hoa Kỳ và nhiều "
+"Một nhà cung cấp dịch vụ thanh toán Hoa Kỳ-Ireland hỗ trợ Hoa Kỳ và nhiều "
 "quốc gia khác."
 
 #. module: base
@@ -15701,13 +15709,13 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_payment_asiapay
 msgid "An payment provider based in Hong Kong covering most Asian countries."
 msgstr ""
-"Một nhà cung cấp dịch vụ thanh toán có trụ sở tại Hồng Kông bao phủ gồm hết "
+"Một nhà cung cấp dịch vụ thanh toán có trụ sở tại Hồng Kông hỗ trợ gồm hết "
 "các quốc gia châu Á."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_authorize
 msgid "An payment provider covering the US, Australia, and Canada."
-msgstr "Một nhà cung cấp dịch vụ thanh toán bao gồm Hoa Kỳ, Úc và Canada."
+msgstr "Một nhà cung cấp dịch vụ thanh toán hỗ trợ Hoa Kỳ, Úc và Canada."
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_analytic
@@ -15973,7 +15981,7 @@ msgstr "Argentina - Khấu trừ thanh toán"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ar_pos
 msgid "Argentinean - Point of Sale with AR Doc"
-msgstr "Argentina - Điểm bán hàng với AR Doc"
+msgstr "Argentina - Máy tính tiền với AR Doc"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ar_reports
@@ -16116,7 +16124,7 @@ msgstr "Chấm công Gantt"
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_holidays_attendance
 msgid "Attendance Holidays"
-msgstr "Chuyên cần Nghỉ lễ"
+msgstr "Chấm công Nghỉ lễ"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_human_resources_attendances
@@ -16594,7 +16602,7 @@ msgstr "Mã vạch %s"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_barcodes_gs1_nomenclature
 msgid "Barcode - GS1 Nomenclature"
-msgstr "Mã vạch - Phép đặt tên GS1"
+msgstr "Mã vạch - Danh pháp GS1"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_barcode_product_expiry
@@ -16804,7 +16812,7 @@ msgstr "Kê khai Intrastat của Bỉ"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_hr_payroll_attendance
 msgid "Belgian Payroll - Attendance"
-msgstr "Bảng lương Bỉ - Chuyên cần"
+msgstr "Bảng lương Bỉ - Chấm công"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_blackbox_be
@@ -17760,7 +17768,7 @@ msgstr "Chad"
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_users_my
 msgid "Change My Preferences"
-msgstr "Thay đổi các Ưu tiên của Tôi"
+msgstr "Thay đổi tùy chọn của tôi"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.change_password_wizard_action
@@ -17947,7 +17955,7 @@ msgstr "Thương mại điện tử của Chile"
 #: model:ir.module.module,shortdesc:base.module_l10n_cl_edi_pos
 #: model:ir.module.module,summary:base.module_l10n_cl_edi_pos
 msgid "Chilean module for Point of Sale"
-msgstr "Phân hệ Điểm bán hàng của Chile"
+msgstr "Phân hệ Máy tính tiền của Chile"
 
 #. module: base
 #: model:res.country,name:base.cn
@@ -19113,7 +19121,7 @@ msgstr "Tạo công từ chấm công dựa vào kế hoạch của nhân viên"
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_work_entry_contract_attendance
 msgid "Create work entries from the employee's attendances"
-msgstr "Tạo công từ chuyên cần của nhân viên"
+msgstr "Tạo công từ chấm công của nhân viên"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_work_entry_contract_planning
@@ -19612,8 +19620,8 @@ msgstr "D - NGUỒN CUNG ĐIỆN, KHÍ ĐỐT, HƠI NƯỚC VÀ ĐIỀU HÒA KH�
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_dhl
-msgid "DHL Express Shipping"
-msgstr "Chuyển Phát Nhanh DHL"
+msgid "DHL Express Shipping (Legacy)"
+msgstr "Chuyển Phát Nhanh DHL (Cũ)"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_din5008
@@ -20886,7 +20894,7 @@ msgstr "Báo cáo kế toán của Ecuador"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ec_edi_pos
 msgid "Ecuadorian Point of Sale"
-msgstr "Điểm bán hàng của Ecuador"
+msgstr "Máy tính tiền của Ecuador"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ec_website_sale
@@ -22730,7 +22738,7 @@ msgstr "Từ báo giá thành hóa đơn"
 #: model:ir.module.category,name:base.module_category_human_resources_frontdesk
 #: model:ir.module.module,shortdesc:base.module_frontdesk
 msgid "Frontdesk"
-msgstr "Bàn đăng ký"
+msgstr "Quầy lễ tân"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
@@ -23385,7 +23393,7 @@ msgstr "Nhân sự - Trò chuyện trực tiếp"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_holidays_attendance
 msgid "HR Attendance Holidays"
-msgstr "Nhân sự Chuyên cần Nghỉ lễ"
+msgstr "Nhân sự Chấm công Nghỉ lễ"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_gamification
@@ -25668,7 +25676,7 @@ msgstr "Kenya - Bảng lương với Kế toán"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ke_edi_oscu_pos
 msgid "Kenya - Point of Sale"
-msgstr "Kenya - Điểm bán hàng"
+msgstr "Kenya - Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ke_edi_oscu_mrp
@@ -26600,7 +26608,7 @@ msgstr "Thư doanh nghiệp"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_group
 msgid "Mail Group"
-msgstr "Nhóm gửi thư"
+msgstr "Nhóm liên hệ"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mail_mobile
@@ -26772,7 +26780,7 @@ msgstr "Malta - Báo cáo Kế toán"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mt_pos
 msgid "Malta - Point of Sale"
-msgstr "Malta - Điểm bán hàng"
+msgstr "Malta - Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_mt_pos
@@ -26980,7 +26988,7 @@ msgstr ""
 msgid "Manage extra hours for your hourly paid employees using attendance"
 msgstr ""
 "Quản lý giờ làm thêm cho nhân viên được trả lương theo giờ bằng cách sử dụng"
-" tính năng chuyên cần"
+" tính năng chấm công"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_payroll_planning
@@ -27403,7 +27411,7 @@ msgstr "Bản địa hóa tiếng Mexico cho Thương mại điện tử"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_pos
 msgid "Mexican Localization for the Point of Sale"
-msgstr "Bản địa hóa tiếng Mexico cho Điểm bán hàng"
+msgstr "Bản địa hóa tiếng Mexico cho Máy tính tiền"
 
 #. module: base
 #: model:res.country,name:base.mx
@@ -29244,7 +29252,7 @@ msgstr ""
 "với <a href=\"https://www.odoo.com/app/employees\">Nhân sự</a> của Odoo,\n"
 "\n"
 "Quản lý toàn bộ hoạt động nhân sự một cách dễ dàng: chia sẻ kiến thức, tuyển dụng,\n"
-"đánh giá, bảng chấm công, hợp đồng, chuyên cần, bảng lương,...\n"
+"đánh giá, bảng chấm công, hợp đồng, chấm công, bảng lương,...\n"
 "\n"
 "Mỗi nhu cầu sẽ được đáp ứng bằng một ứng dụng cụ thể mà bạn có thể kích hoạt nếu cần.\n"
 "\n"
@@ -29277,11 +29285,11 @@ msgstr ""
 "\n"
 "Tương tác với đồng nghiệp của bạn trong thời gian thực với tính năng trò chuyện trực tiếp trên trang web.\n"
 "\n"
-"Theo dõi Thời gian và Chuyên cần\n"
+"Theo dõi Thời gian và Chấm công\n"
 "--------------------------\n"
 "\n"
 "Theo dõi thời gian dành cho dự án, khách hàng hoặc nhiệm vụ. Việc ghi lại bảng chấm công\n"
-"hoặc kiểm tra chuyên cần của từng nhân viên trở nên thật dễ dàng. Tự động ghi nhận kế toán phân tích\n"
+"hoặc kiểm tra chấm công của từng nhân viên trở nên thật dễ dàng. Tự động ghi nhận kế toán phân tích\n"
 "dựa trên thời gian dành cho các dự án của bạn.\n"
 "\n"
 "Quản lý Ngày nghỉ\n"
@@ -32066,7 +32074,7 @@ msgstr "Bảng lương"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_payroll_attendance
 msgid "Payroll - Attendance"
-msgstr "Bảng lương - Chuyên cần"
+msgstr "Bảng lương - Chấm công"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_payroll_fleet
@@ -32127,12 +32135,12 @@ msgstr "Peru - Hướng dẫn Giao hàng Điện tử"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pe_pos
 msgid "Peruvian - Point of Sale with Pe Doc"
-msgstr "Peru - Điểm bán hàng với Pe Doc"
+msgstr "Peru - Máy tính tiền với Pe Doc"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pe_edi_pos
 msgid "Peruvian Localization for the Point of Sale"
-msgstr "Bản địa hóa tiếng Peru cho Điểm bán hàng"
+msgstr "Bản địa hóa tiếng Peru cho Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_pe_website_sale
@@ -32305,47 +32313,47 @@ msgstr "Màn hình khâu chuẩn bị POS Nhà hàng"
 #: model:ir.module.category,name:base.module_category_sales_point_of_sale
 #: model:ir.module.module,shortdesc:base.module_point_of_sale
 msgid "Point of Sale"
-msgstr "Điểm bán hàng"
+msgstr "Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_loyalty
 msgid "Point of Sale - Coupons & Loyalty"
-msgstr "Điểm bán hàng - Phiếu thưởng & Khách hàng thân thiết"
+msgstr "Máy tính tiền - Phiếu thưởng & Khách hàng thân thiết"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_discount
 msgid "Point of Sale Discounts"
-msgstr "Chiết khấu Điểm bán hàng"
+msgstr "Chiết khấu Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_sale_stock_renting
 msgid "Point of Sale Rental Stock"
-msgstr "Điểm bán hàng Cho thuê Tồn kho"
+msgstr "Máy tính tiền Cho thuê Tồn kho"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_restaurant_appointment
 msgid "Point of Sale Restaurant Appointment"
-msgstr "Điểm bán hàng Nhà hàng Lịch hẹn"
+msgstr "Máy tính tiền Nhà hàng Lịch hẹn"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_settle_due
 msgid "Point of Sale Settle Due"
-msgstr "Điểm bán hàng đến hạn thanh toán"
+msgstr "Máy tính tiền đến hạn thanh toán"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_sale_subscription
 msgid "Point of Sale Subscription"
-msgstr "Điểm bán hàng Đăng ký"
+msgstr "Máy tính tiền Đăng ký"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_enterprise
 msgid "Point of Sale enterprise"
-msgstr "Điểm bán hàng enterprise"
+msgstr "Máy tính tiền enterprise"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_online_payment
 msgid "Point of Sale online payment"
-msgstr "Thanh toán online điểm bán hàng"
+msgstr "Thanh toán online máy tính tiền"
 
 #. module: base
 #: model:res.country,name:base.pl
@@ -32448,7 +32456,7 @@ msgstr "Số chữ số thập phân"
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "Preferences"
-msgstr "Tùy chỉnh cá nhân"
+msgstr "Tùy chọn"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence__prefix
@@ -33953,7 +33961,7 @@ msgstr "Nhà hàng"
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_restaurant
 msgid "Restaurant extensions for the Point of Sale "
-msgstr "Tính năng nhà hàng bổ sung cho Điểm bán hàng "
+msgstr "Tính năng nhà hàng bổ sung cho Máy tính tiền "
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__reset_view_arch_wizard__reset_mode__soft
@@ -35076,8 +35084,14 @@ msgstr "Gửi bưu kiện của bạn qua shiprocket và theo dõi chúng online
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_dhl
-msgid "Send your shippings through DHL and track them online"
-msgstr "Gửi hàng của bạn qua DHL và theo dõi chúng online"
+msgid ""
+"This is the legacy integration with DHL Express that is no longer supported."
+" Please install the new \"DHL Express Shipping\" module and uninstall this "
+"one as soon as possible."
+msgstr ""
+"Đây là tích hợp cũ với Chuyển phát Nhanh DHL không còn được hỗ trợ. Vui lòng"
+" cài đặt phân hệ \"Chuyển phát Nhanh DHL\" mới và gỡ bỏ phân hệ này càng sớm"
+" càng tốt."
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex_rest
@@ -35457,7 +35471,7 @@ msgstr "Đăng ký"
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_discount
 msgid "Simple Discounts in the Point of Sale "
-msgstr "Giảm giá đơn giản tại điểm bán hàng "
+msgstr "Giảm giá đơn giản tại máy tính tiền "
 
 #. module: base
 #. odoo-python
@@ -35799,7 +35813,7 @@ msgstr "Tây Ban Nha - POS + TicketBAI"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_es_pos
 msgid "Spain - Point of Sale"
-msgstr "Tây Ban Nha - Điểm bán hàng"
+msgstr "Tây Ban Nha - Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_es_real_estates
@@ -35819,7 +35833,7 @@ msgstr "Tây Ban Nha - TicketBAI"
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_es_pos
 msgid "Spanish localization for Point of Sale"
-msgstr "Bản địa hóa tiếng Tây Ban Nha cho Điểm bán hàng"
+msgstr "Bản địa hóa tiếng Tây Ban Nha cho Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_sparse_field
@@ -36065,7 +36079,7 @@ msgstr "Trang chủ bảng tính cho bảng lương"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_pos_hr
 msgid "Spreadsheet dashboard for point of sale"
-msgstr "Trang chủ bảng tính cho điểm bán hàng"
+msgstr "Trang chủ bảng tính cho máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_spreadsheet_dashboard_purchase
@@ -36467,12 +36481,12 @@ msgstr "Máy tính tiền đã đăng ký của Thụy Điển"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ch_pos
 msgid "Swiss - Point of Sale"
-msgstr "Thuỵ Sĩ - Điểm bán hàng"
+msgstr "Thuỵ Sĩ - Máy tính tiền"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ch_hr_payroll_elm_transmission
 msgid "Swissdec Certified Payroll (ELM 5.0)"
-msgstr ""
+msgstr "Bảng lương được chứng nhận Swissdec (ELM 5.0)"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.language_install_view_form_lang_switch
@@ -38222,9 +38236,9 @@ msgid ""
 "and keep track of application submissions easily. It comes as an add-on of "
 "*Recruitment* app."
 msgstr ""
-"Phân hệ này cho phép xuất bản các vị trí công việc có sẵn của bạn trên trang"
+"Phân hệ này cho phép xuất bản các Vị trí công việc có sẵn của bạn trên trang"
 " web của bạn và theo dõi các ứng dụng nộp đơn dễ dàng. Nó đến như là một "
-"add-on của * ứng dụng tuyển dụng *."
+"tiện ích bổ sung của * ứng dụng tuyển dụng *."
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_mail_sms
@@ -38651,7 +38665,7 @@ msgstr "Bảng chấm công và Ngày nghỉ"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet_attendance
 msgid "Timesheets/attendances reporting"
-msgstr "Báo cáo Bảng công/Điểm danh"
+msgstr "Báo cáo Bảng chấm công/chấm công"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__tz
@@ -39302,7 +39316,7 @@ msgstr "Chưa được phân loại"
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 #, python-format
 msgid "Uninstall"
-msgstr "Xóa cài đặt"
+msgstr "Gỡ cài đặt"
 
 #. module: base
 #. odoo-python
@@ -39310,7 +39324,7 @@ msgstr "Xóa cài đặt"
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 #, python-format
 msgid "Uninstall module"
-msgstr "Phân hệ chưa cài đặt"
+msgstr "Gỡ cài đặt phân hệ"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_module_module__state__uninstallable
@@ -40260,7 +40274,7 @@ msgstr "Virgin Islands (USA)"
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
 #: model_terms:ir.ui.view,arch_db:base.view_window_action_form
 msgid "Visibility"
-msgstr "Hiển thị"
+msgstr "Chế độ hiển thị"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_category__visible
@@ -40543,7 +40557,7 @@ msgstr "Website Mail"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_mail_group
 msgid "Website Mail Group"
-msgstr "Nhóm thư trang web"
+msgstr "Nhóm liên hệ trang web"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_mail

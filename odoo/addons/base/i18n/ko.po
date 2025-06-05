@@ -6,8 +6,8 @@
 # JH CHOI <hwangtog@gmail.com>, 2023
 # Martin Trigaux, 2024
 # Daye Jeong, 2025
-# Sarah Park, 2025
 # Wil Odoo, 2025
+# Sarah Park, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-03 11:38+0000\n"
 "PO-Revision-Date: 2023-10-26 23:09+0000\n"
-"Last-Translator: Wil Odoo, 2025\n"
+"Last-Translator: Sarah Park, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -606,6 +606,9 @@ msgid ""
 "            Egypt Tax Authority Invoice Integration\n"
 "        "
 msgstr ""
+"\n"
+"            이집트 국세청 청구서 통합\n"
+"        "
 
 #. module: base
 #: model:ir.module.module,summary:base.module_l10n_ke_edi_oscu
@@ -15357,7 +15360,7 @@ msgstr "재무 통합에 필요한 모든 것"
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_holidays
 msgid "Allocate PTOs and follow leaves requests"
-msgstr "유급 휴가 할당 및 휴가 신청 조치"
+msgstr "휴가 배정부터 신청 처리 작업까지 한 번에"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_helpdesk_fsm
@@ -19433,8 +19436,8 @@ msgstr "D - 전기, 가스, 난방기 및 에어컨 공급업체"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_dhl
-msgid "DHL Express Shipping"
-msgstr "DHL 익스프레스 선적"
+msgid "DHL Express Shipping (Legacy)"
+msgstr "DHL 익스프레스 선적 (레거시)"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_din5008
@@ -34157,7 +34160,7 @@ msgstr "판매 내부 메커니즘"
 #: model:ir.model.fields,field_description:base.field_res_users__user_id
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Salesperson"
-msgstr "영업사원"
+msgstr "영업 담당자"
 
 #. module: base
 #: model:res.country,name:base.ws
@@ -34657,8 +34660,13 @@ msgstr "shiprocket를 통해 소포를 발송하고 온라인에서 배송 현�
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_dhl
-msgid "Send your shippings through DHL and track them online"
-msgstr "DHL을 통한 상품 운송 및 온라인 물류 정보 추적"
+msgid ""
+"This is the legacy integration with DHL Express that is no longer supported."
+" Please install the new \"DHL Express Shipping\" module and uninstall this "
+"one as soon as possible."
+msgstr ""
+"더 이상 지원되지 않는 DHL Express 통합 레거시 버전입니다. 새로운 'DHL Express 배송' 모듈을 설치 후 최대한 빠른 "
+"시일 내에 해당 모듈을 제거하시기 바랍니다."
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex_rest

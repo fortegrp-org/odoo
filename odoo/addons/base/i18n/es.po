@@ -10201,7 +10201,7 @@ msgid ""
 "It also provides new tools to analyse your data.\n"
 msgstr ""
 "\n"
-"Este módulo añade un nueva vista de tablero en la aplicación Sitio web.\n"
+"Este módulo añade una nueva vista de tablero en la aplicación Sitio web.\n"
 "Este nuevo tipo de vista contiene algunas estadísticas básicas, una gráfica y una subvista de tabla dinámica que permiten obtener una rápida vista general de sus ventas en línea.\n"
 "También ofrece nuevas herramientas para analizar sus datos.\n"
 
@@ -19660,8 +19660,8 @@ msgstr "D - SUMINISTRO DE ELECTRICIDAD, GAS, VAPOR Y AIRE ACONDICIONADO"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_dhl
-msgid "DHL Express Shipping"
-msgstr "Envío por DHL Express"
+msgid "DHL Express Shipping (Legacy)"
+msgstr "Envío por DHL Express (obsoleto)"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_din5008
@@ -30855,7 +30855,7 @@ msgstr "Estands de eventos en línea"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_sale
 msgid "Online Event Ticketing"
-msgstr "Venta de entradas en línea eventos"
+msgstr "Venta de entradas en línea para eventos"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_hr_recruitment
@@ -32145,7 +32145,7 @@ msgstr "Proveedor de pago: Xendit"
 #. module: base
 #: model:ir.module.category,name:base.module_category_accounting_payment_providers
 msgid "Payment Providers"
-msgstr "Proveedores de pagos"
+msgstr "Proveedores de pago"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_payment_term
@@ -35182,8 +35182,14 @@ msgstr "Envíe sus paquetes a través de Shiprocket y rastréelos en línea"
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_dhl
-msgid "Send your shippings through DHL and track them online"
-msgstr "Haga sus envíos a través de DHL y rastréelos en línea"
+msgid ""
+"This is the legacy integration with DHL Express that is no longer supported."
+" Please install the new \"DHL Express Shipping\" module and uninstall this "
+"one as soon as possible."
+msgstr ""
+"Esta es una integración de DHL Express obsoleta y ya no es compatible. "
+"Instale el nuevo modulo “Envíos por DHL Express” y desinstale este tan "
+"pronto como le sea posible."
 
 #. module: base
 #: model:ir.module.module,description:base.module_delivery_fedex_rest
