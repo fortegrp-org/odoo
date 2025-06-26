@@ -1010,8 +1010,6 @@ Attempting to double-book your time off won't magically make your vacation 2x be
             for hol in self:
                 if hol.state not in ['draft', 'confirm', 'validate1']:
                     raise UserError(error_message % state_description_values.get(self[:1].state))
-                if hol.date_from.date() < now:
-                    raise UserError(_('You cannot delete a time off which is in the past'))
                 if hol.sudo().employee_ids and not hol.employee_id:
                     raise UserError(_('You cannot delete a time off assigned to several employees'))
         else:
